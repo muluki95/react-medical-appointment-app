@@ -9,7 +9,7 @@ const Navbar = () => {
     <div>
 <div className="nav_title">
           <Link href="/">
-          StayHealthy 
+          StayHealthy Inc 
           </Link>
           <span>.</span>
         </div>
