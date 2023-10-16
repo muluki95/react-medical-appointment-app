@@ -3,13 +3,21 @@
     margin: 0 auto;
     padding: 40px;
     margin-top: 10%;
+    display: block;
    
   }
-
-  
-  .form-group {
-    margin-bottom: 20px;
+  .login_form{
+    width: 400px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
   }
+  .login-text1,.login_label, .login-text{
+    text-align: left;
+  
+  }
+  
+ 
   
   .form-group label {
     display: block;
@@ -18,16 +26,19 @@
   }
   
   .form-control {
-    width: 40%;
+    width: 400px;
     padding: 8px;
     font-size: 16px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    
   }
   
   .btn-group {
     margin-top: .0001px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+    display:flex;
+    flex-direction: column;
   }
   
   .btn {
@@ -41,9 +52,11 @@
   .btn-primary {
     background-color: #007bff;
     color: #fff;
+    width: 400px;
   }
   
   .btn-danger {
     background-color: #dc3545;
     color: #fff;
+    width: 30%;
   }
